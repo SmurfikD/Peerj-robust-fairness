@@ -14,7 +14,7 @@ _______________________________________________________________________________
 ```python
 from datasets import load_dataset
 imdb = load_dataset("imdb")
-
+`````
 _______________________________________________________________________________
 
 ## 2. Model: DistilBERT for Sentiment Analysis
