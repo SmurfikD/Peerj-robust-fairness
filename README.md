@@ -12,7 +12,7 @@ Date: **2025**
 _______________________________________________________________________________
 
 ## Repository Structure
-
+`````
 peerj_package/
 ├── notebooks/
 │ └── peerj_robust_fairness.ipynb # Main experiment notebook
@@ -29,7 +29,7 @@ peerj_package/
 ├── README.md # This file
 ├── HOW_TO_SCALE.md # Instructions to scale to IMDb + DistilBERT
 └── requirements.txt # Dependencies
-
+`````
 
 _______________________________________________________________________________
 
@@ -40,7 +40,6 @@ _______________________________________________________________________________
 Make sure you have **Python 3.10+** installed.  
 Check your version:
 
-```bash
 python --version
 
 2. Clone and Install Dependencies
