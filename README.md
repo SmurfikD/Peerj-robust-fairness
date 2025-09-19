@@ -13,11 +13,11 @@ _______________________________________________________________________________
 
 ## Repository Structure
 `````
-peerj_package/
+test_package/
 ├── notebooks/
-│ └── peerj_robust_fairness.ipynb # Main experiment notebook
+│ └── robust_fairness.ipynb # Main experiment notebook
 ├── metrics/
-│ ├── per_run_results.csv # Metrics for each run
+│ ├── run_results.csv # Metrics for each run
 │ ├── mean_results.csv # Average metrics per scenario
 │ └── metrics_summary.csv # Summary metrics table
 ├── figures/
@@ -25,7 +25,7 @@ peerj_package/
 │ ├── fairness_plot.png # Fairness gaps (DPG/EOG)
 │ ├── roc_curve.png # ROC curve (baseline model)
 │ └── robustness_plot.png # Robustness line plot
-├── table_peerj.tex # LaTeX table for manuscript
+├── table.tex # LaTeX table for manuscript
 ├── README.md # This file
 ├── HOW_TO_SCALE.md # Instructions to scale to IMDb + DistilBERT
 └── requirements.txt # Dependencies
@@ -44,8 +44,8 @@ python --version
 
 2. Clone and Install Dependencies
 
-git clone https://github.com/<your-username>/peerj_package.git
-cd peerj_package
+git clone https://github.com/<your-username>/test_package.git
+cd test_package
 pip install -r requirements.txt
 
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 Start Jupyter Notebook:
 
-jupyter notebook notebooks/peerj_robust_fairness.ipynb
+jupyter notebook notebooks/robust_fairness.ipynb
 
 Run all cells in the notebook to reproduce metrics and figures.
 
