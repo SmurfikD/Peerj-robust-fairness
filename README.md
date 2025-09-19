@@ -2,9 +2,9 @@
 
 _______________________________________________________________________________
 
-This repository contains the research package for the paper  
+This repository contains the research package: 
 **"Impact of Data Quality and Perturbations on the Robustness and Fairness of ML Models"**  
-submitted to *PeerJ Computer Science (2025)*.
+
 
 Author: **Dmitrii Kochetov**  
 Date: **2025**
